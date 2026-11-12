@@ -8,11 +8,11 @@ Supervision: Aaron Wetzler.
 
 ## Status
 
-**Coming soon.** This repository is being prepared as a historical student-project archive. Original source code, project documents and build instructions will be added as they are recovered and reviewed. It is not yet a runnable release.
+The [original 16-page report](docs/report.pdf), *2D iOS Game* (Spring 2012), has been recovered. **Source code coming soon:** the final app project has not yet been located. This is a documentation archive, not a runnable release.
 
 ## Running
 
-No runnable source has been published in this repository yet. Platform requirements and setup instructions will be recorded from the original project files rather than guessed.
+The original report describes Objective-C, Xcode 4.3.2, Cocos2D for iPhone, Box2D and CocosBuilder, targeting an iPad with iOS 4 or later. These are historical requirements, not tested current dependencies. No build command is claimed without the matching app source.
 
 ## Links
 
