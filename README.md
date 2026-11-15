@@ -36,6 +36,8 @@ The report lists iPad testing as a project step but records no numerical or auto
 
 ## Attribution and reuse
 
+On 15 November 2026, Liav Sitruk individually approved keeping this archive with his attribution, using the project code and agent-assisted attempts to run or update that code. He supplied no additional source copy. See [author response and permission scope](PROVENANCE.md#author-response).
+
 The credits above follow the archived project page. The linked source's `CreditLayer.m` credits the same students and supervisor, spelling Idan's surname “Bannani”. The linked repository includes third-party dependency license notices, but no application-wide license was identified in the inspected commit. This archive does not assign a license to that source, the recovered report or the historical image. Original authors can open an issue to contribute updates or request corrections or removal of their material.
 
 Figure provenance: `assets/project-preview.jpg` is the original student-project game image from the archived project page on Aaron Wetzler's website, copied without modification. Any third-party characters or artwork shown remain the property of their owners.

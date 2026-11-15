@@ -4,6 +4,12 @@ The 16-page Spring 2012 report and historical game image were recovered from the
 
 On 12 November 2026, Idan Banani supplied [a source repository on his GitHub account](https://github.com/IdanBanani/iOS-4-2D-game-for-iPad). Aaron chose to link to that repository. No application code or game assets have been imported into this archive.
 
+## Author response
+
+On 15 November 2026, Liav Sitruk approved keeping this archive repository with his attribution, using the project code, and agent-assisted attempts to run or update that code. He has no additional source copy to contribute. This records Liav's individual response; it does not assign a software license, change Idan Banani's rights or authorize reuse of third-party artwork. Under this archive's existing practice, future fixes or ports will be labeled as updated work and kept separate from recovered originals.
+
+Correspondence and contact details are retained privately. The source location remains the repository supplied by Idan above; Liav's response does not establish its completeness or current buildability.
+
 ## Source inspection
 
 The documentation update inspected [commit `270b45c`](https://github.com/IdanBanani/iOS-4-2D-game-for-iPad/tree/270b45ce6a1e149209e1d595e492766ede3b7747) on 13 November 2026:
