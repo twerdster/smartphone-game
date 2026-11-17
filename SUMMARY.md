@@ -1,9 +1,21 @@
-# Smartphone Game archive
+# smartphone-game: maintenance context
 
-This public repository preserves an unchanged 16-page Spring 2012 report and historical game image for Liav Sitruk and Idan Banani's Cocos2D/Box2D iPad physics game, supervised by Aaron Wetzler.
+Read this file, then SKILL.md, README.md and linked recovery/provenance records. Current update: 17 November 2026.
 
-As of 13 November 2026, README.md links to the source repository supplied by Idan Banani on 12 November: https://github.com/IdanBanani/iOS-4-2D-game-for-iPad. No game source or assets were copied here. PROVENANCE.md records the inspected upstream commit, source structure at commit `270b45ce6a1e149209e1d595e492766ede3b7747`, bundled Cocos2D 1.0.1, missing Xcode project/workspace and license limits. No game build or runtime test has been performed.
+The students built a touch-controlled iPad physics game with Cocos2D and Box2D: launch balls, adjust trampolines and reach targets.
 
-The original report and image must retain their bytes and attribution. This archive contains documentation and original records, with source hosted separately in the repository supplied by Idan Banani. Keep source availability distinct from a verified runnable application. Private correspondence and contact details stay outside the repository.
+## Original material
 
-On 15 November 2026, Liav Sitruk approved keeping the archive with his attribution, using the project code and agent-assisted attempts to run or update it. He has no additional source copy. README.md links to the individual response and its limits in PROVENANCE.md; this does not assign an application-wide license or add build/runtime evidence. Original materials and the prior source-inspection record are unchanged.
+The 16-page Spring 2012 report and original image are preserved. Idan supplied an external source repository; its inspected revision lacks an Xcode project, and no current build is recorded. Original source, submodule pins, images, reports, slides, notices and author-response records are unchanged. [Historical implementation and recovery notes](docs/RECOVERY.md) retain the earlier setup and failed-build evidence; existing PROVENANCE.md or source/PROVENANCE.json remains authoritative where present.
+
+## Updated demo
+
+Play a new cannon-and-trampoline level with adjustable launch speed, angles and trampoline position. This is new independent JavaScript/Canvas code in docs/, not a restored or ported historical application. This is an independent game with new vector artwork and simplified physics, not a port of the students’ code, assets or levels.
+
+Run https://twerdster.github.io/smartphone-game/ or `python3 -m http.server 8000 --directory docs` from the repository root. No build, account, SDK or external service is required. Serve docs/ as the GitHub Pages source.
+
+## Checks and review
+
+updated/VALIDATION.json records 9 passing Chromium browser assertions for the new demo, including responsive layout checks; these are scoped interaction checks on synthetic/local examples. No original native build, sensor accuracy or physical-mobile/Safari/Firefox coverage was added. Two Claude CLI editorial passes reviewed the concise README and new-demo guide; useful wording and scope qualifications were checked against code and recovery records. Detailed review records are private.
+
+Preserve attribution, original bytes and licensing boundaries. New demo code has a scoped MIT license in docs/DEMO-LICENSE.txt; it does not cover historical materials or third-party dependencies. Correspondence, personal contact data and machine-specific setup details stay private. Before every commit review and synchronize this file and SKILL.md.

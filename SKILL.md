@@ -1,10 +1,15 @@
-# Maintaining this archive
+# Maintaining smartphone-game
 
-Read SUMMARY.md, then this file, README.md and PROVENANCE.md before making changes.
+Read SUMMARY.md first, then this file, README.md, docs/RECOVERY.md, updated/README.md and applicable provenance records.
 
-- Check the current repository supplied by Idan Banani and record the inspected commit when changing technical claims. Do not copy or relicense its code merely because it is publicly visible.
-- Preserve the recovered report and historical image, their credits and third-party artwork attribution. Label any future ports or fixes separately from original work.
-- Keep historical setup requirements separate from a build that has actually been reproduced. Do not claim current Xcode/iOS support or gameplay validation without recorded checks.
-- Keep correspondence, email addresses and private evidence outside the public repository. Public author-profile links may be added when supplied by the authors.
-- Record individual author responses in PROVENANCE.md, with a brief README link. Liav Sitruk's 15 November 2026 approval covers keeping the archive with attribution, use of the code and agent-assisted attempts to run/update the code. It supplies no additional source, is not a license and does not cover other contributors' rights or third-party artwork. Keep future updated work separate from originals.
-- Check Markdown links, image rendering and staged whitespace, then review and synchronize SUMMARY.md and this file before committing. Use the existing normal Git publication workflow.
+Preserve original source bytes, pinned revisions, figures, reports, slides, notices and student attribution. Keep new fixes or reconstructions separate and label them as updated work. Author responses do not create a blanket license or cover third-party terms. Keep correspondence, contact details and recovery secrets private.
+
+The runnable new browser example is docs/index.html, docs/demo.js and docs/demo.css. Serve docs/ with a static HTTP server; GitHub Pages uses main:/docs. Keep links and the root README #updated anchor intact. The demo must remain project-specific and interactive, with visible synthetic/local-data labels. Its scoped MIT license excludes original materials.
+
+When changing the interaction, exercise its controls, meaningful result changes/rejections and downloads where present; for cross-tab messaging, verify an actual second tab. Check console errors, local requests and narrow-screen layout. Update updated/VALIDATION.json with actual results and limits, never invented counts or hardware claims. Synthetic examples and component assertions do not validate historical software or physical devices.
+
+README prose should briefly explain purpose, original material and current progress; keep lengthy setup, conversion, recovery and validation details in linked guides. Real Claude review is required when requested, and should be recorded only when it actually occurred.
+
+Keep the student-supplied source hosted at IdanBanani/iOS-4-2D-game-for-iPad linked separately; do not import/relicense its code or third-party game artwork merely because it is public.
+
+Before each commit review and synchronize SUMMARY.md and this file; check Markdown/relative links, original-file hashes, image rendering and staged whitespace. Use normal publication without rewriting preserved history.
